@@ -31,4 +31,17 @@ print(name_data)
 
 new_name = [name_data for name_data in name_data if "a" in name_data]
 
-print(new_name)
+# new_name = name_data.copy()
+
+# concanited 
+
+new_name = name_data + new_name
+
+# print(new_name)
+
+# nested list 
+
+name_data.insert(2, ["Gripal", "swastik", "Puja"])
+
+# print(name_data)
+
